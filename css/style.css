@@ -1,7 +1,11 @@
 .img-t{
-    width: 200px;
+    width: 500px;
 }
 
 .nav-bg{
-    background-color: white;
+    background-color: #00FFFF;
+}
+
+.paginainicio{
+    background-color: #01257D;
 }
