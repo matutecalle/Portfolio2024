@@ -5,106 +5,178 @@
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio</title>
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
-    <script src="bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/main.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <body>
-    <div class="row">
-        <div class="col-md-2 nav-bg">
-            <nav>
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-                        aria-controls="v-pills-home" aria-selected="true">//inicio</a>
-                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-                        aria-controls="v-pills-profile" aria-selected="false">//habilidades</a>
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-                        aria-controls="v-pills-messages" aria-selected="false">//experiencia</a>
-                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-                        aria-controls="v-pills-settings" aria-selected="false">//contacto</a>
-                </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 nav-bg">
+                <nav>
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                            role="tab" aria-controls="v-pills-home" aria-selected="true">//inicio</a>
+                        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                            role="tab" aria-controls="v-pills-profile" aria-selected="false">//habilidades</a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                            role="tab" aria-controls="v-pills-messages" aria-selected="false">//experiencia</a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+                            role="tab" aria-controls="v-pills-settings" aria-selected="false">//contacto</a>
+                    </div>
 
-            </nav>
-        </div>
-        <div class="col-md-10 paginainicio text-white">
-            <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                    aria-labelledby="v-pills-home-tab">
-                    <div class="row">
-                        <div class="col-12 text-center"><img class="img-t" src="images/foto_recep-removebg-preview.png"
-                                alt="Foto principal"></div>
-                        <div class="col-12 text-center">
-                            <h1>HOLA! SOY MATIAS CALLEJO</h1>
-                            <h2>Ingeniero en sistemas (en proceso)</h2>
-                            <p>Estudiante universitario con muchas ganas de aprender para desarrollar sitios y apps web
-                                que alcancen el éxito.</p>
+                </nav>
+            </div>
+            <div class="col-md-10 paginainicio text-white">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <div class="row">
+                            <div class="col-12 text-center"><img class="img-t"
+                                    src="images/foto_recep-removebg-preview.png" alt="Foto principal"></div>
+                            <div class="col-12 text-center">
+                                <h1>HOLA! SOY MATIAS CALLEJO</h1>
+                                <h2>Ingeniero en sistemas (en proceso)</h2>
+                                <p>Estudiante universitario con muchas ganas de aprender para desarrollar sitios y apps
+                                    web
+                                    que alcancen el éxito.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                    <h2>Habilidades</h2>
-                    <ul>
-                        <li>Manejo básico de C/C++</li>
-                        <li>Manejo básico de HTML</li>
-                        <li>Manejo básico de KOTLIN</li>
-                        <li>Manejo básico de PROLOG</li>
-                        <li>Manejo de SQL</li>
-                    </ul>
-                    <h2>Herramientas</h2>
-                    <ul>
-                        <li>VSCode</li>
-                        <li>Zinjai</li>
-                        <li>MySQL / SQLServer</li>
-
-                    </ul>
-                </div>
-                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-
-                </div>
-                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                    <div class="row text-center">
-                        <div class="col-6">
-                            <h2>CONTACTAME</h2>
-                            <div class="col-12">
-                                <a href="https://www.instagram.com/maticallejo/" target="_blank"><i
-                                        class="fa-brands fa-instagram fa-2xl" style="color: #B197FC;"></i>
-                                    <p>Instagram</p>
-                                </a>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                        aria-labelledby="v-pills-profile-tab">
+                        <div class="row">
+                            <div class="col-6 text-center">
+                                <h2>Habilidades</h2>
+                                <ul>
+                                    <li>Manejo básico de C/C++</li>
+                                    <li>Manejo básico de HTML</li>
+                                    <li>Manejo básico de KOTLIN</li>
+                                    <li>Manejo básico de PROLOG</li>
+                                    <li>Manejo de SQL</li>
+                                </ul>
                             </div>
+                            <div class="col-6 text-center">
+                                <h2>Herramientas</h2>
+                                <ul>
+                                    <li>VSCode</li>
+                                    <li>Zinjai</li>
+                                    <li>MySQL / SQLServer</li>
+                                    <li>DrRacket</li>
+                                    <li>IntelliJ IDEA</li>
+                                    <li>Pencil</li>
+                                    <li>StarUML</li>
+                                    <li>SWIProlog</li>
 
-                            <div class="col-12">
-                                <a href="https://www.linkedin.com/in/matias-callejo-19a5b0244/" target="_blank"><i
-                                        class="fa-brands fa-linkedin fa-2xl" style="color: #B197FC;"></i>
-                                    <p>LinkedIn</p>
-                                </a>
-                            </div>
 
-                            <div class="col-12">
-                                <a href="mailto:matincallejo@gmail.com" target="_blank"><i
-                                        class="fa-solid fa-envelope fa-2xl" style="color: #B197FC;"></i>
-                                    <p>Correo electrónico</p>
-                                </a>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <h2>CONSULTA</h2>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                        aria-labelledby="v-pills-messages-tab">
+                        <div class="row">
+                            <div class="col-6 text-center">
+                                <h2>Educacion</h2>
+                                <h3>Primaria y Secundaria</h3>
+                                <p>Colegio Sagrado Corazon de Jesus de los Hermanos Maristas</p>
+                                <p>Bachiller en Economía y Gestion de Empresas</p>
+                                <p>2007-2021</p>
 
+                                <h3>Educacion Superior</h3>
+                                <p>UTN Facultad Regional San Francisco</p>
+                                <p>Ingenieria en Sistemas</p>
+                                <p>2022-actualidad</p>
+
+
+                            </div>
+                            <div class="col-6 text-center">
+                                <h2>Experiencia</h2>
+                                <p class="border-bottom">Internet Services</p>
+                                <ul class="align-items-start">
+                                    <li>Atencion al cliente</li>
+                                    <li>Configuración de equipos</li>
+                                    <li>Venta de servicios</li>
+                                    <li>Servicio técnico</li>
+                                </ul>
+                                <p>2022-actualidad</p>
+
+                                <p class="border-bottom">Starlink</p>
+                                <p title="Proyecto para monitorear y proteger la Tierra mediante la red satelital Starlink">Starlink-EarthShield</p>
+                                <p>2023-actualidad</p>
+                                
+                                <p class="border-bottom">Mercado Libre</p>
+                                <p title="Asistente de compras impulsado por IA para automatizar compras y personalizar recomendaciones">Mercado Libre AI Shopper</p>
+                                <p>2023-actualidad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                        aria-labelledby="v-pills-settings-tab">
+                        <div class="row text-center">
+                            <div class="col-6">
+                                <h2>CONTACTAME</h2>
+                                <div class="col-12">
+                                    <a href="https://www.instagram.com/maticallejo/" target="_blank"><i
+                                            class="fa-brands fa-instagram fa-2xl" style="color: #B197FC;"></i>
+                                        <p>Instagram</p>
+                                    </a>
+                                </div>
+
+                                <div class="col-12">
+                                    <a href="https://www.linkedin.com/in/matias-callejo-19a5b0244/" target="_blank"><i
+                                            class="fa-brands fa-linkedin fa-2xl" style="color: #B197FC;"></i>
+                                        <p>LinkedIn</p>
+                                    </a>
+                                </div>
+
+                                <div class="col-12">
+                                    <a href="mailto:matincallejo@gmail.com" target="_blank"><i
+                                            class="fa-solid fa-envelope fa-2xl" style="color: #B197FC;"></i>
+                                        <p>Correo electrónico</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <h2>CONSULTA</h2>
+                                <div class="text-center">
+                                    <form action="https://formspree.io/f/mrbzjyyj" method="POST">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Correo electrónico</label>
+                                            <input type="email" name="email" class="form-control"
+                                                id="exampleInputEmail1" aria-describedby="emailHelp"
+                                                placeholder="Ingrese su dirección de correo electrónico">
+                                            <small id="emailHelp" class="form-text text-muted">No se compartirá su
+                                                dirección de correo con nadie.</small>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputText1">Mensaje</label>
+                                            <textarea type="text" name="message" rows="3" class="form-control"
+                                                id="exampleInputText1" placeholder="Deje su mensaje aqui"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Enviar</button>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <footer class="w-100">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="text-center nav-bg">MATIAS NICOLAS CALLEJO</h2>
+            <footer class="w-100">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2 class="text-center nav-bg">MATIAS NICOLAS CALLEJO</h2>
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
+        <script src="bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </body>
 
 </html>

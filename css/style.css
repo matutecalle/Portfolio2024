@@ -9,3 +9,29 @@
 .paginainicio{
     background-color: #01257D;
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: "Roboto Condensed", sans-serif !important;
+
+}
+
+.container-fluid {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    height: 100%;
+    margin: 0;
+}
+
+.col-md-2, .col-md-10 {
+    height: 100%;
+    padding: 0;
+}
